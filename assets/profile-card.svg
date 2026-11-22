@@ -1,32 +1,33 @@
 <svg width="850" height="170" viewBox="0 0 850 170" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Deep Executive Tech Navy Gradient -->
+    <!-- Soft Light Blue Gradient Surface -->
     <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#081024" />
-      <stop offset="60%" stop-color="#0c1938" />
-      <stop offset="100%" stop-color="#0a1329" />
+      <stop offset="0%" stop-color="#dbeafe" />
+      <stop offset="50%" stop-color="#f0f7ff" />
+      <stop offset="100%" stop-color="#e0f2fe" />
     </linearGradient>
     <style>
-      .card-border { stroke: #2563eb; stroke-width: 1.2; stroke-opacity: 0.45; }
-      .handle { font: 600 13px 'Segoe UI', -apple-system, sans-serif; fill: #38bdf8; letter-spacing: 0.5px; }
-      .fullname { font: 700 26px 'Segoe UI', -apple-system, sans-serif; fill: #ffffff; letter-spacing: 0.2px; }
-      .role-title { font: 500 15px 'Segoe UI', -apple-system, sans-serif; fill: #93c5fd; }
+      .card-border { stroke: #60a5fa; stroke-width: 1.5; stroke-opacity: 0.85; }
+      .handle { font: 700 13px 'Segoe UI', -apple-system, sans-serif; fill: #0284c7; letter-spacing: 0.5px; }
+      .fullname { font: 800 26px 'Segoe UI', -apple-system, sans-serif; fill: #0f172a; letter-spacing: 0.2px; }
+      .role-title { font: 600 15px 'Segoe UI', -apple-system, sans-serif; fill: #1e40af; }
       
-      /* Professional Unified Tags */
-      .tag-box { fill: #0d1e3d; stroke: #1e40af; stroke-width: 1; stroke-opacity: 0.6; }
-      .tag-text { font: 600 12px 'Segoe UI', -apple-system, sans-serif; fill: #bfdbfe; }
+      /* Professional Light Tags */
+      .tag-box { fill: #ffffff; stroke: #93c5fd; stroke-width: 1.2; }
+      .tag-text { font: 700 12px 'Segoe UI', -apple-system, sans-serif; fill: #0369a1; }
+      .tag-text-green { font: 700 12px 'Segoe UI', -apple-system, sans-serif; fill: #065f46; }
 
       /* Minimal Live Indicator */
-      .status-text { font: 500 12px 'Segoe UI', -apple-system, sans-serif; fill: #a7f3d0; }
+      .status-text { font: 600 12px 'Segoe UI', -apple-system, sans-serif; fill: #047857; }
     </style>
   </defs>
 
-  <!-- Clean Base Surface -->
+  <!-- Clean Light Blue Base Surface -->
   <rect width="850" height="170" rx="12" fill="url(#card-bg)" class="card-border" />
 
-  <!-- Avatar Badge (FA) -->
-  <circle cx="80" cy="85" r="42" fill="#0d1e3d" stroke="#38bdf8" stroke-width="1.8" />
-  <text x="80" y="95" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" letter-spacing="1px">FA</text>
+  <!-- Avatar Badge (FA) - Vibrant Royal Blue on Light Background -->
+  <circle cx="80" cy="85" r="42" fill="#2563eb" stroke="#60a5fa" stroke-width="2" />
+  <text x="80" y="95" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif" font-size="26" font-weight="800" fill="#ffffff" letter-spacing="1px">FA</text>
 
   <!-- User Identity & Focus -->
   <g transform="translate(148, 48)">
@@ -40,21 +41,21 @@
     <text y="54" class="role-title">Web Developer &amp; Network Engineer</text>
   </g>
 
-  <!-- Only The 2 Requested Disciplines (Web Developer & Networking) -->
+  <!-- The 2 Core Disciplines (Web Developer & Networking) -->
   <g transform="translate(148, 120)">
     <!-- Tag 1: Web Development -->
-    <rect width="145" height="26" rx="5" class="tag-box" />
-    <circle cx="16" cy="13" r="3" fill="#38bdf8" />
-    <text x="84" y="17" text-anchor="middle" class="tag-text">Web Development</text>
+    <rect width="150" height="26" rx="5" class="tag-box" />
+    <circle cx="16" cy="13" r="3" fill="#0284c7" />
+    <text x="88" y="17" text-anchor="middle" class="tag-text">Web Development</text>
 
     <!-- Tag 2: Computer Networking -->
-    <rect x="157" width="160" height="26" rx="5" class="tag-box" />
-    <circle cx="173" cy="13" r="3" fill="#10b981" />
-    <text x="242" y="17" text-anchor="middle" class="tag-text">Computer Networking</text>
+    <rect x="162" width="165" height="26" rx="5" class="tag-box" />
+    <circle cx="178" cy="13" r="3" fill="#10b981" />
+    <text x="250" y="17" text-anchor="middle" class="tag-text-green">Computer Networking</text>
   </g>
 
   <!-- Minimal Clean Status on Right Side -->
-  <g transform="translate(680, 52)">
+  <g transform="translate(670, 52)">
     <circle cx="10" cy="10" r="3.5" fill="#10b981" />
     <text x="20" y="14" class="status-text">Available for Projects</text>
   </g>
