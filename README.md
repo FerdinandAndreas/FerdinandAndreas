@@ -1,43 +1,30 @@
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Ferdinand Andreas Name Banner" />
-</p>
-
-<p align="center">
-  <img src="./assets/profile-card.svg" width="100%" alt="Ferdinand Andreas Profile Card" />
+  <img src="./assets/hero.svg" width="100%" alt="Ferdinand Andreas - Web Developer &amp; Network Engineer" />
 </p>
 
 ---
 
 ### About Me
 
-Hi, I am **Ferdinand Andreas Saputra** (`@FerdinandAndreas`), a Computer Science student and developer focused on **Mobile &amp; Web Development**, **IoT (Internet of Things)**, **Computer Networking**, and **UI/UX Design**.
+Hi, I am **Ferdinand Andreas Saputra** (`@FerdinandAndreas`), a Computer Science student and software engineer specializing in **Web Engineering**, **Computer Networking**, and **UI/UX Design**.
 
-I build integrated digital solutions from hardware to cloud and user interfaces: connecting microcontrollers and sensors to modern cloud databases, crafting intuitive UI/UX designs, and building responsive mobile and web applications.
+I design and build end-to-end digital solutions: from crafting user-centric design systems and modern web interfaces to engineering robust network architectures, real-time databases, and connected mobile and IoT systems.
 
-- **Mobile Development**: Crafting cross-platform mobile apps with **Flutter** and native Android apps with **Kotlin**.
-- **Web Development**: Building modern full-stack web applications using **React**, **Next.js**, **Node.js**, **PHP**, and modern web standards.
-- **IoT &amp; Embedded Systems**: Interfacing microcontrollers (ESP32, Arduino, Raspberry Pi), sensor telemetry, and lightweight protocols like MQTT with real-time dashboards.
-- **Databases &amp; Cloud**: Managing and integrating real-time backends with **Supabase**, **Firebase**, and **NoSQL** architectures.
-- **Computer Networking**: Analyzing data flow, network protocols, system architectures, and reliable communications.
-- **UI/UX Design**: Designing design systems, wireframes, and interactive user prototypes focused on clarity and ease of use.
+- **Web Engineering**: Building fast, accessible, and performant web applications with **React**, **Next.js**, **Node.js**, and modern frontend standards.
+- **Computer Networking**: Analyzing network topologies, traffic flows, packet data, and implementing reliable communication protocols.
+- **UI/UX Design**: Creating wireframes, interactive user journeys, and scalable design systems in **Figma**.
+- **Databases &amp; Cloud**: Integrating real-time and document-based cloud backends using **Supabase**, **Firebase**, and **NoSQL**.
+- **Mobile &amp; IoT**: Developing cross-platform mobile apps (**Flutter**, **Kotlin**) and microcontrollers (**ESP32**, **Arduino**).
 
 ---
 
 <p align="center">
-  <img src="./assets/profile-scan.svg" width="100%" alt="Developer Stack Telemetry" />
+  <img src="./assets/developer-manifest.svg" width="100%" alt="Developer Manifest &amp; Network Telemetry" />
 </p>
 
 ---
 
 ### Technical Arsenal &amp; Stack
-
-#### Mobile Development
-<p align="left">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
-</p>
 
 #### Web &amp; Frontend
 <p align="left">
@@ -50,36 +37,22 @@ I build integrated digital solutions from hardware to cloud and user interfaces:
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </p>
 
-#### Databases &amp; Cloud Backends
-<p align="left">
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-  <img src="https://img.shields.io/badge/NoSQL-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="NoSQL" />
-</p>
-
-#### IoT &amp; Embedded Hardware
-<p align="left">
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi" />
-  <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipsemosquitto&logoColor=white" alt="MQTT" />
-</p>
-
-#### Backend &amp; Core Languages
-<p align="left">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-</p>
-
-#### Networking &amp; Systems
+#### Computer Networking &amp; Systems
 <p align="left">
   <img src="https://img.shields.io/badge/Computer%20Networking-1E40AF?style=for-the-badge&logo=cisco&logoColor=white" alt="Computer Networking" />
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
+#### Databases &amp; Cloud Backends
+<p align="left">
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/NoSQL-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="NoSQL" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
 </p>
 
 #### UI/UX &amp; Design Tools
@@ -90,17 +63,29 @@ I build integrated digital solutions from hardware to cloud and user interfaces:
   <img src="https://img.shields.io/badge/Design%20Systems-38BDF8?style=for-the-badge&logo=sketch&logoColor=black" alt="Design Systems" />
 </p>
 
+#### Mobile &amp; IoT
+<p align="left">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+  <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipsemosquitto&logoColor=white" alt="MQTT" />
+</p>
+
 ---
 
+### GitHub Activity &amp; Live Metrics
+
 <p align="center">
-  <img src="./assets/contribution-jet.svg" width="100%" alt="Continuous Engineering &amp; Telemetry Stream" />
+  <img src="https://github-readme-stats.vercel.app/api?username=FerdinandAndreas&show_icons=true&theme=sky&bg_color=eff6ff&title_color=0369a1&text_color=1e40af&icon_color=0284c7&border_color=93c5fd&border_radius=12" alt="Ferdinand Andreas GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FerdinandAndreas&layout=compact&theme=sky&bg_color=eff6ff&title_color=0369a1&text_color=1e40af&border_color=93c5fd&border_radius=12" alt="Ferdinand Andreas Top Languages" />
 </p>
 
 ---
 
 ### Connect &amp; Collaborate
 
-I am always open to collaborating on web, mobile, IoT hardware integrations, and UI/UX design projects.
+I am always open to discussing web engineering projects, network architecture research, and UI/UX design opportunities.
 
 <p align="left">
   <a href="https://linkedin.com/in/ferdinandandreas" target="_blank">
