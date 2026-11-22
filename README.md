@@ -19,7 +19,7 @@ I design and build end-to-end digital solutions: from crafting user-centric desi
 ---
 
 <p align="center">
-  <img src="./assets/developer-manifest.svg" width="100%" alt="Developer Manifest &amp; Network Telemetry" />
+  <img src="./assets/profile-scan.svg" width="100%" alt="Developer Telemetry &amp; Engineering Specs" />
 </p>
 
 ---
