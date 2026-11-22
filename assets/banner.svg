@@ -66,24 +66,24 @@
   <!-- 3D Bold Floating Typography Stack -->
   <g class="float-layer">
     <!-- Depth Layer 6 (Deep Base) -->
-    <text x="50%" y="108" class="text-3d" fill="#081430">Ferdinand</text>
+    <text x="50%" y="108" class="text-3d" fill="#081430">FERDINAND</text>
     
     <!-- Depth Layer 5 -->
-    <text x="50%" y="106" class="text-3d" fill="#0d2354">Ferdinand</text>
+    <text x="50%" y="106" class="text-3d" fill="#0d2354">FERDINAND</text>
 
     <!-- Depth Layer 4 -->
-    <text x="50%" y="104" class="text-3d" fill="#12357a">Ferdinand</text>
+    <text x="50%" y="104" class="text-3d" fill="#12357a">FERDINAND</text>
 
     <!-- Depth Layer 3 -->
-    <text x="50%" y="102" class="text-3d" fill="#1a49a5">Ferdinand</text>
+    <text x="50%" y="102" class="text-3d" fill="#1a49a5">FERDINAND</text>
 
     <!-- Depth Layer 2 -->
-    <text x="50%" y="100" class="text-3d" fill="#2563eb">Ferdinand</text>
+    <text x="50%" y="100" class="text-3d" fill="#2563eb">FERDINAND</text>
 
     <!-- Depth Layer 1 (Upper Bevel) -->
-    <text x="50%" y="98" class="text-3d" fill="#3b82f6">Ferdinand</text>
+    <text x="50%" y="98" class="text-3d" fill="#3b82f6">FERDINAND</text>
 
     <!-- Front Face with Glossy Bevel Reflection & White Rim -->
-    <text x="50%" y="96" class="text-3d" fill="url(#front-face)" stroke="#ffffff" stroke-width="1.8">Ferdinand</text>
+    <text x="50%" y="96" class="text-3d" fill="url(#front-face)" stroke="#ffffff" stroke-width="1.8">FERDINAND</text>
   </g>
 </svg>
