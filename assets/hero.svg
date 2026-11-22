@@ -26,12 +26,12 @@
       .window-title { font: 600 11px 'Courier New', monospace; fill: #0369a1; letter-spacing: 0.5px; }
       .greet-text { font: 700 12px 'Segoe UI', -apple-system, sans-serif; fill: #0284c7; letter-spacing: 2px; }
       
-      /* Chunky 3D Name Typography */
+      /* Chunky 3D Name Typography in ALL CAPS */
       .name-3d {
         font-family: 'Arial Black', Impact, 'Montserrat Black', 'Segoe UI Black', sans-serif;
-        font-size: 50px;
+        font-size: 46px;
         font-weight: 900;
-        letter-spacing: 3px;
+        letter-spacing: 2.5px;
       }
 
       .role-text { font: 700 17px 'Segoe UI', -apple-system, sans-serif; fill: #1e40af; }
@@ -87,16 +87,16 @@
   <!-- Greeting -->
   <text x="165" y="70" class="greet-text">HELLO WORLD, I'M</text>
 
-  <!-- Chunky 3D Name Extrusion -->
+  <!-- Chunky 3D Name Extrusion in ALL CAPS (CAPSLOCK) -->
   <g>
     <!-- 3D Shadow Layers -->
-    <text x="165" y="122" class="name-3d" fill="#081430">Ferdinand Andreas</text>
-    <text x="165" y="120" class="name-3d" fill="#0d2354">Ferdinand Andreas</text>
-    <text x="165" y="118" class="name-3d" fill="#12357a">Ferdinand Andreas</text>
-    <text x="165" y="116" class="name-3d" fill="#1a49a5">Ferdinand Andreas</text>
-    <text x="165" y="114" class="name-3d" fill="#2563eb">Ferdinand Andreas</text>
+    <text x="165" y="122" class="name-3d" fill="#081430">FERDINAND ANDREAS</text>
+    <text x="165" y="120" class="name-3d" fill="#0d2354">FERDINAND ANDREAS</text>
+    <text x="165" y="118" class="name-3d" fill="#12357a">FERDINAND ANDREAS</text>
+    <text x="165" y="116" class="name-3d" fill="#1a49a5">FERDINAND ANDREAS</text>
+    <text x="165" y="114" class="name-3d" fill="#2563eb">FERDINAND ANDREAS</text>
     <!-- 3D Front Face -->
-    <text x="165" y="112" class="name-3d" fill="url(#front-face)" stroke="#ffffff" stroke-width="1.8">Ferdinand Andreas</text>
+    <text x="165" y="112" class="name-3d" fill="url(#front-face)" stroke="#ffffff" stroke-width="1.8">FERDINAND ANDREAS</text>
   </g>
 
   <!-- Primary Role -->
