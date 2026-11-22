@@ -93,11 +93,10 @@ I build complete digital systems from infrastructure to interfaces: configuring 
 
 ---
 
-### GitHub Activity &amp; Live Metrics
+### Continuous Engineering &amp; Telemetry Stream
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FerdinandAndreas&show_icons=true&theme=sky&bg_color=eff6ff&title_color=0369a1&text_color=1e40af&icon_color=0284c7&border_color=93c5fd&border_radius=12" alt="Ferdinand Andreas GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FerdinandAndreas&layout=compact&theme=sky&bg_color=eff6ff&title_color=0369a1&text_color=1e40af&border_color=93c5fd&border_radius=12" alt="Ferdinand Andreas Top Languages" />
+  <img src="./assets/contribution-jet.svg" width="100%" alt="Continuous Engineering &amp; Telemetry Stream" />
 </p>
 
 ---
