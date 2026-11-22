@@ -1,48 +1,89 @@
-<svg width="850" height="150" viewBox="0 0 850 150" xmlns="http://www.w3.org/2000/svg">
+<svg width="850" height="160" viewBox="0 0 850 160" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Light Blue Gradient Background -->
+    <!-- Soft Light Blue Gradient Surface -->
     <linearGradient id="banner-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#dbeafe" />
       <stop offset="50%" stop-color="#f0f7ff" />
       <stop offset="100%" stop-color="#e0f2fe" />
     </linearGradient>
-    <pattern id="dots" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.3" fill="#60a5fa" />
-    </pattern>
+
+    <!-- Glossy 3D Front Face Gradient -->
+    <linearGradient id="front-face" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="28%" stop-color="#e0f2fe" />
+      <stop offset="68%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+
+    <!-- Ambient 3D Floor Shadow Filter -->
+    <filter id="floor-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+    </filter>
+
     <style>
       .card-border { stroke: #60a5fa; stroke-width: 1.5; stroke-opacity: 0.85; }
-      .name-text {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 74px;
+      
+      /* Chunky, Fat 3D Typography */
+      .text-3d {
+        font-family: 'Arial Black', Impact, 'Montserrat Black', 'Segoe UI Black', sans-serif;
+        font-size: 82px;
         font-weight: 900;
-        letter-spacing: 12px;
-        fill: url(#dots);
-        stroke: #1d4ed8;
-        stroke-width: 0.9;
-        stroke-opacity: 0.85;
+        letter-spacing: 5px;
+        text-anchor: middle;
       }
-      .reveal {
-        animation: typing 3.5s steps(20, end) infinite alternate;
+
+      /* Smooth Floating 3D Animation */
+      .float-layer {
+        animation: float3d 4s ease-in-out infinite;
       }
-      @keyframes typing {
-        0%, 15% { width: 0; }
-        80%, 100% { width: 850px; }
+      .shadow-pulse {
+        animation: shadowScale 4s ease-in-out infinite;
+      }
+
+      @keyframes float3d {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      @keyframes shadowScale {
+        0%, 100% { transform: scale(1); opacity: 0.22; }
+        50% { transform: scale(0.92); opacity: 0.12; }
       }
     </style>
-    <clipPath id="clip-typing">
-      <rect class="reveal" x="0" y="0" width="850" height="150" />
-    </clipPath>
   </defs>
 
-  <!-- Background Panel with Light Sky Blue Surface -->
-  <rect width="850" height="150" rx="14" fill="url(#banner-bg)" class="card-border" />
-  
-  <!-- Subtle Header Tech Accent Line in Vibrant Blue -->
-  <line x1="20" y1="18" x2="80" y2="18" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" />
-  <line x1="88" y1="18" x2="120" y2="18" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.8" />
+  <!-- Clean Base Surface -->
+  <rect width="850" height="160" rx="14" fill="url(#banner-bg)" class="card-border" />
 
-  <!-- Animated Typing Text -->
-  <g clip-path="url(#clip-typing)">
-    <text x="50%" y="98" text-anchor="middle" class="name-text">Ferdinand</text>
+  <!-- Subtle Modern Header Tech Accent -->
+  <line x1="24" y1="20" x2="84" y2="20" stroke="#0284c7" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="92" y1="20" x2="124" y2="20" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round" stroke-opacity="0.8" />
+
+  <!-- Ambient 3D Ground Shadow -->
+  <g transform="translate(425, 134)" class="shadow-pulse">
+    <ellipse cx="0" cy="0" rx="250" ry="12" fill="#1e3a8a" filter="url(#floor-shadow)" />
+  </g>
+
+  <!-- 3D Bold Floating Typography Stack -->
+  <g class="float-layer">
+    <!-- Depth Layer 6 (Deep Base) -->
+    <text x="50%" y="108" class="text-3d" fill="#081430">Ferdinand</text>
+    
+    <!-- Depth Layer 5 -->
+    <text x="50%" y="106" class="text-3d" fill="#0d2354">Ferdinand</text>
+
+    <!-- Depth Layer 4 -->
+    <text x="50%" y="104" class="text-3d" fill="#12357a">Ferdinand</text>
+
+    <!-- Depth Layer 3 -->
+    <text x="50%" y="102" class="text-3d" fill="#1a49a5">Ferdinand</text>
+
+    <!-- Depth Layer 2 -->
+    <text x="50%" y="100" class="text-3d" fill="#2563eb">Ferdinand</text>
+
+    <!-- Depth Layer 1 (Upper Bevel) -->
+    <text x="50%" y="98" class="text-3d" fill="#3b82f6">Ferdinand</text>
+
+    <!-- Front Face with Glossy Bevel Reflection & White Rim -->
+    <text x="50%" y="96" class="text-3d" fill="url(#front-face)" stroke="#ffffff" stroke-width="1.8">Ferdinand</text>
   </g>
 </svg>
