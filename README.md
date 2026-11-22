@@ -6,15 +6,17 @@
 
 ### About Me
 
-Hi, I am **Ferdinand Andreas Saputra** (`@FerdinandAndreas`), a Computer Science student and software engineer specializing in **Web Engineering**, **Computer Networking**, and **UI/UX Design**.
+Hi, I am **Ferdinand Andreas Saputra** (`@FerdinandAndreas`), a Computer Science student and multi-disciplinary engineer specializing in **Web Engineering**, **Computer Networking**, **Machine Learning**, and **UI/UX Design**.
 
-I design and build end-to-end digital solutions: from crafting user-centric design systems and modern web interfaces to engineering robust network architectures, real-time databases, and connected mobile and IoT systems.
+I build complete digital systems from infrastructure to interfaces: configuring network routing and router management via **Winbox (MikroTik)**, developing backend services with **Django**, **Laravel**, and **Node.js**, building responsive frontend apps in **React** and **Next.js**, training **Machine Learning** models, and containerizing environments with **Docker**.
 
-- **Web Engineering**: Building fast, accessible, and performant web applications with **React**, **Next.js**, **Node.js**, and modern frontend standards.
-- **Computer Networking**: Analyzing network topologies, traffic flows, packet data, and implementing reliable communication protocols.
-- **UI/UX Design**: Creating wireframes, interactive user journeys, and scalable design systems in **Figma**.
-- **Databases &amp; Cloud**: Integrating real-time and document-based cloud backends using **Supabase**, **Firebase**, and **NoSQL**.
-- **Mobile &amp; IoT**: Developing cross-platform mobile apps (**Flutter**, **Kotlin**) and microcontrollers (**ESP32**, **Arduino**).
+- **Web &amp; Backend Engineering**: Building scalable full-stack applications with **Next.js**, **React**, **Django**, **Laravel**, **Node.js**, and **PHP**.
+- **Computer Networking**: Network administration and routing with **Winbox (MikroTik)**, packet analysis with **Wireshark**, and protocol architectures.
+- **Machine Learning &amp; AI**: Training predictive models with **Scikit-Learn**, data processing, and intelligent feature engineering.
+- **DevOps, Tooling &amp; Workflow**: Containerization with **Docker**, version control with **Git**, and workspace documentation in **Notion**.
+- **Databases &amp; Cloud**: Real-time cloud databases and document modeling using **Supabase**, **Firebase**, and **NoSQL**.
+- **Mobile &amp; IoT**: Building cross-platform apps with **Flutter**, native Android with **Kotlin**, and microcontrollers (**ESP32**, **Arduino**).
+- **UI/UX Design**: Wireframing, interactive prototyping, and design systems in **Figma**.
 
 ---
 
@@ -37,13 +39,32 @@ I design and build end-to-end digital solutions: from crafting user-centric desi
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </p>
 
-#### Computer Networking &amp; Systems
+#### Backend &amp; Frameworks
 <p align="left">
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+</p>
+
+#### Computer Networking &amp; Infrastructure
+<p align="left">
+  <img src="https://img.shields.io/badge/MikroTik_Winbox-000000?style=for-the-badge&logo=mikrotik&logoColor=white" alt="MikroTik Winbox" />
   <img src="https://img.shields.io/badge/Computer%20Networking-1E40AF?style=for-the-badge&logo=cisco&logoColor=white" alt="Computer Networking" />
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
+
+#### Machine Learning &amp; AI
+<p align="left">
+  <img src="https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
 </p>
 
 #### Databases &amp; Cloud Backends
@@ -51,25 +72,23 @@ I design and build end-to-end digital solutions: from crafting user-centric desi
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
   <img src="https://img.shields.io/badge/NoSQL-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="NoSQL" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
 </p>
 
-#### UI/UX &amp; Design Tools
-<p align="left">
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/UI%2FUX%20Design-10B981?style=for-the-badge&logo=adobexd&logoColor=white" alt="UI/UX Design" />
-  <img src="https://img.shields.io/badge/Wireframing-6366F1?style=for-the-badge&logo=miro&logoColor=white" alt="Wireframing" />
-  <img src="https://img.shields.io/badge/Design%20Systems-38BDF8?style=for-the-badge&logo=sketch&logoColor=black" alt="Design Systems" />
-</p>
-
-#### Mobile &amp; IoT
+#### Mobile, IoT &amp; Embedded
 <p align="left">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
   <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipsemosquitto&logoColor=white" alt="MQTT" />
+</p>
+
+#### UI/UX, Design &amp; Productivity
+<p align="left">
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
+  <img src="https://img.shields.io/badge/UI%2FUX%20Design-10B981?style=for-the-badge&logo=adobexd&logoColor=white" alt="UI/UX Design" />
+  <img src="https://img.shields.io/badge/Design%20Systems-38BDF8?style=for-the-badge&logo=sketch&logoColor=black" alt="Design Systems" />
 </p>
 
 ---
@@ -85,7 +104,7 @@ I design and build end-to-end digital solutions: from crafting user-centric desi
 
 ### Connect &amp; Collaborate
 
-I am always open to discussing web engineering projects, network architecture research, and UI/UX design opportunities.
+I am always open to discussing web engineering projects, network architecture research, machine learning models, and UI/UX design opportunities.
 
 <p align="left">
   <a href="https://linkedin.com/in/ferdinandandreas" target="_blank">

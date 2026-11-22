@@ -43,19 +43,19 @@
   <circle cx="42" cy="40" r="5" fill="#ef4444" opacity="0.9" />
   <circle cx="58" cy="40" r="5" fill="#f59e0b" opacity="0.9" />
   <circle cx="74" cy="40" r="5" fill="#10b981" opacity="0.9" />
-  <text x="96" y="44" class="header-title">STACK &amp; IOT TELEMETRY</text>
+  <text x="96" y="44" class="header-title">STACK &amp; NETWORKING TELEMETRY</text>
   <line x1="32" y1="56" x2="362" y2="56" stroke="#e2e8f0" stroke-width="1.2" />
 
-  <!-- Terminal Telemetry Content in High-Contrast Navy/Blue -->
+  <!-- Terminal Telemetry Content -->
   <g transform="translate(36, 78)">
     <text y="0" class="terminal-prompt">$</text>
     <text x="16" y="0" class="terminal-code">inspect --capabilities --full</text>
     
-    <text y="24" class="terminal-code">[PLATFORM] Web: React · Next.js · Node.js</text>
-    <text y="44" class="terminal-code">[PLATFORM] Mobile: Flutter · Kotlin</text>
-    <text y="64" class="terminal-code">[DATABASE] Supabase · Firebase · NoSQL</text>
-    <text y="84" class="terminal-code">[HARDWARE] IoT: ESP32 · Sensors · MQTT</text>
-    <text y="104" class="terminal-code">[NETWORK]  Traffic Analysis · Protocols</text>
+    <text y="24" class="terminal-code">[BACKEND]  Django · Laravel · Node · PHP</text>
+    <text y="44" class="terminal-code">[NETWORK]  Winbox (MikroTik) · Wireshark</text>
+    <text y="64" class="terminal-code">[AI / ML]  Machine Learning · Scikit-Learn</text>
+    <text y="84" class="terminal-code">[TOOLING]  Docker · Git · Notion · Linux</text>
+    <text y="104" class="terminal-code">[DATABASE] Supabase · Firebase · NoSQL</text>
 
     <!-- Separator -->
     <line x1="0" y1="120" x2="320" y2="120" stroke="#e2e8f0" stroke-width="1.2" />
@@ -63,12 +63,12 @@
     <text y="138" class="terminal-prompt">$</text>
     <text x="16" y="138" class="terminal-code">status --active-pipelines</text>
 
-    <text y="160" class="terminal-highlight">&#x2714; Mobile &amp; Web Apps: Flutter, React, Next.js</text>
-    <text y="180" class="terminal-highlight">&#x2714; Cloud DB: Supabase, Firebase &amp; NoSQL</text>
-    <text y="200" class="terminal-highlight">&#x2714; IoT Systems: ESP32 &amp; Sensor Telemetry</text>
-    <text y="220" class="terminal-highlight">&#x2714; UI/UX Architecture &amp; Network Labs</text>
+    <text y="160" class="terminal-highlight">&#x2714; Full-Stack: Django, Laravel, React, Next</text>
+    <text y="180" class="terminal-highlight">&#x2714; Machine Learning &amp; Applied AI Models</text>
+    <text y="200" class="terminal-highlight">&#x2714; Network: Winbox Routing &amp; Traffic Logs</text>
+    <text y="220" class="terminal-highlight">&#x2714; Containerized Workflows (Docker)</text>
     
-    <text y="246" class="terminal-code">&gt; Status: All engineering nodes connected.</text>
+    <text y="246" class="terminal-code">&gt; Status: All verified pipelines active.</text>
   </g>
   
   <!-- Scanning Light Line -->
@@ -87,31 +87,31 @@
     <text y="24" class="label">Identity</text>
     <text x="135" y="24" class="val-accent">@FerdinandAndreas</text>
 
-    <text y="48" class="label">Primary Focus</text>
-    <text x="135" y="48" class="val">Web &amp; Mobile · IoT Systems · UI/UX</text>
+    <text y="48" class="label">Primary Roles</text>
+    <text x="135" y="48" class="val">Web &amp; Network Engineer · AI Explorer</text>
 
-    <text y="72" class="label">Mobile Apps</text>
-    <text x="135" y="72" class="val-code">Flutter (Dart), Kotlin, Android Studio</text>
+    <text y="72" class="label">Backend</text>
+    <text x="135" y="72" class="val-code">Django, Laravel, Node.js, PHP, Python</text>
 
-    <text y="96" class="label">Web Frontend</text>
+    <text y="96" class="label">Frontend</text>
     <text x="135" y="96" class="val-code">React, Next.js, HTML5, CSS3, Tailwind</text>
 
-    <text y="120" class="label">Databases</text>
-    <text x="135" y="120" class="val-amber">Supabase, Firebase, NoSQL</text>
+    <text y="120" class="label">Networking</text>
+    <text x="135" y="120" class="val-green">Winbox (MikroTik), Wireshark, Protocols</text>
 
-    <text y="144" class="label">IoT &amp; Hardware</text>
-    <text x="135" y="144" class="val-green">ESP32, Arduino, MQTT, Sensors</text>
+    <text y="144" class="label">Machine Learning</text>
+    <text x="135" y="144" class="val-amber">ML Regression/Classif, Scikit-Learn</text>
 
-    <text y="168" class="label">Backend &amp; Core</text>
-    <text x="135" y="168" class="val-code">Node.js, PHP, Python, C++</text>
+    <text y="168" class="label">Containers &amp; Ops</text>
+    <text x="135" y="168" class="val-code">Docker, Git, Linux Lab, Notion</text>
 
-    <text y="192" class="label">Networking</text>
-    <text x="135" y="192" class="val">Computer Networks · Protocol Inspection</text>
+    <text y="192" class="label">Databases</text>
+    <text x="135" y="192" class="val-accent">Supabase, Firebase, NoSQL</text>
 
-    <text y="216" class="label">Design Focus</text>
-    <text x="135" y="216" class="val">UI/UX Design · Responsive Layouts · Figma</text>
+    <text y="216" class="label">Design &amp; UI/UX</text>
+    <text x="135" y="216" class="val">Figma · Wireframing · Design Systems</text>
 
     <text y="240" class="label">Status</text>
-    <text x="135" y="240" class="val-green">Building Smart Web, Mobile &amp; IoT</text>
+    <text x="135" y="240" class="val-green">Building Scalable Web, Network &amp; AI</text>
   </g>
 </svg>
