@@ -1,0 +1,61 @@
+<svg width="850" height="170" viewBox="0 0 850 170" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Deep Executive Tech Navy Gradient -->
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081024" />
+      <stop offset="60%" stop-color="#0c1938" />
+      <stop offset="100%" stop-color="#0a1329" />
+    </linearGradient>
+    <style>
+      .card-border { stroke: #2563eb; stroke-width: 1.2; stroke-opacity: 0.45; }
+      .handle { font: 600 13px 'Segoe UI', -apple-system, sans-serif; fill: #38bdf8; letter-spacing: 0.5px; }
+      .fullname { font: 700 26px 'Segoe UI', -apple-system, sans-serif; fill: #ffffff; letter-spacing: 0.2px; }
+      .role-title { font: 500 15px 'Segoe UI', -apple-system, sans-serif; fill: #93c5fd; }
+      
+      /* Professional Unified Tags */
+      .tag-box { fill: #0d1e3d; stroke: #1e40af; stroke-width: 1; stroke-opacity: 0.6; }
+      .tag-text { font: 600 12px 'Segoe UI', -apple-system, sans-serif; fill: #bfdbfe; }
+
+      /* Minimal Live Indicator */
+      .status-text { font: 500 12px 'Segoe UI', -apple-system, sans-serif; fill: #a7f3d0; }
+    </style>
+  </defs>
+
+  <!-- Clean Base Surface -->
+  <rect width="850" height="170" rx="12" fill="url(#card-bg)" class="card-border" />
+
+  <!-- Avatar Badge (FA) -->
+  <circle cx="80" cy="85" r="42" fill="#0d1e3d" stroke="#38bdf8" stroke-width="1.8" />
+  <text x="80" y="95" text-anchor="middle" font-family="'Segoe UI', -apple-system, sans-serif" font-size="26" font-weight="700" fill="#ffffff" letter-spacing="1px">FA</text>
+
+  <!-- User Identity & Focus -->
+  <g transform="translate(148, 48)">
+    <!-- Handle -->
+    <text y="0" class="handle">@FerdinandAndreas</text>
+
+    <!-- Full Name -->
+    <text y="30" class="fullname">Ferdinand Andreas Saputra</text>
+
+    <!-- Clear, Simple Primary Title -->
+    <text y="54" class="role-title">Web Developer &amp; Network Engineer</text>
+  </g>
+
+  <!-- Only The 2 Requested Disciplines (Web Developer & Networking) -->
+  <g transform="translate(148, 120)">
+    <!-- Tag 1: Web Development -->
+    <rect width="145" height="26" rx="5" class="tag-box" />
+    <circle cx="16" cy="13" r="3" fill="#38bdf8" />
+    <text x="84" y="17" text-anchor="middle" class="tag-text">Web Development</text>
+
+    <!-- Tag 2: Computer Networking -->
+    <rect x="157" width="160" height="26" rx="5" class="tag-box" />
+    <circle cx="173" cy="13" r="3" fill="#10b981" />
+    <text x="242" y="17" text-anchor="middle" class="tag-text">Computer Networking</text>
+  </g>
+
+  <!-- Minimal Clean Status on Right Side -->
+  <g transform="translate(680, 52)">
+    <circle cx="10" cy="10" r="3.5" fill="#10b981" />
+    <text x="20" y="14" class="status-text">Available for Projects</text>
+  </g>
+</svg>

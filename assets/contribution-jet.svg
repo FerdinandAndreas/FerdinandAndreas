@@ -1,0 +1,243 @@
+<svg width="850" height="210" viewBox="0 0 850 210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="activity-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080f24" />
+      <stop offset="50%" stop-color="#0d1b3e" />
+      <stop offset="100%" stop-color="#091228" />
+    </linearGradient>
+
+    <!-- Wave Telemetry Gradient -->
+    <linearGradient id="wave-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.2" />
+      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#10b981" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.3" />
+    </linearGradient>
+
+    <!-- Pulse Scan Glow Filter -->
+    <filter id="glow-subtle" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .card-border { stroke: #1e40af; stroke-width: 1.5; stroke-opacity: 0.8; }
+      .header-title { font: 700 15px 'Segoe UI', -apple-system, sans-serif; fill: #ffffff; letter-spacing: 0.3px; }
+      .header-sub { font: 400 12px 'Segoe UI', -apple-system, sans-serif; fill: #93c5fd; }
+      .metric-label { font: 600 11px 'Courier New', monospace; fill: #7dd3fc; }
+      .metric-val { font: 600 11px 'Segoe UI', sans-serif; fill: #ffffff; }
+      .metric-green { font: 600 11px 'Segoe UI', sans-serif; fill: #34d399; }
+      .metric-amber { font: 600 11px 'Segoe UI', sans-serif; fill: #fbbf24; }
+
+      /* Telemetry Scan Wave Animation */
+      .scan-beam {
+        animation: telemetry-sweep 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .beacon-pulse {
+        animation: live-pulse 2s ease-in-out infinite;
+      }
+
+      @keyframes telemetry-sweep {
+        0% { transform: translateX(0px); opacity: 0; }
+        10% { opacity: 0.8; }
+        90% { opacity: 0.8; }
+        100% { transform: translateX(780px); opacity: 0; }
+      }
+      @keyframes live-pulse {
+        0%, 100% { opacity: 0.4; r: 3; }
+        50% { opacity: 1; r: 4.5; }
+      }
+    </style>
+  </defs>
+
+  <!-- Base Card Frame -->
+  <rect width="850" height="210" rx="14" fill="url(#activity-bg)" class="card-border" />
+
+  <!-- Top Header Section -->
+  <text x="28" y="34" class="header-title">Continuous Engineering &amp; Telemetry Stream</text>
+  <text x="28" y="52" class="header-sub">Active development across Mobile, Web, IoT Hardware nodes &amp; Supabase Cloud</text>
+
+  <!-- Status Indicator Badge (Top Right) -->
+  <g transform="translate(685, 20)">
+    <rect width="137" height="26" rx="13" fill="#0d2342" stroke="#10b981" stroke-width="1" stroke-opacity="0.6" />
+    <circle cx="16" cy="13" class="beacon-pulse" fill="#10b981" />
+    <text x="28" y="17" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#34d399">STREAM ACTIVE</text>
+  </g>
+
+  <!-- Header Separator Line -->
+  <line x1="28" y1="64" x2="822" y2="64" stroke="#1e3a8a" stroke-opacity="0.5" />
+
+  <!-- Activity Grid Matrix -->
+  <g transform="translate(28, 76)">
+    <!-- Grid Row 1 -->
+    <rect x="0" y="0" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="20" y="0" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="40" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="60" y="0" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="80" y="0" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="100" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="120" y="0" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="140" y="0" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="160" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="180" y="0" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="200" y="0" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="220" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="240" y="0" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="260" y="0" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="280" y="0" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="300" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="320" y="0" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="340" y="0" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="360" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="380" y="0" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="400" y="0" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="420" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="440" y="0" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="460" y="0" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="480" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="500" y="0" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="520" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="540" y="0" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="560" y="0" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="580" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="600" y="0" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="620" y="0" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="640" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="660" y="0" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="680" y="0" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="700" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="720" y="0" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="740" y="0" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="760" y="0" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="780" y="0" width="14" height="12" rx="3" fill="#38bdf8" />
+
+    <!-- Grid Row 2 -->
+    <rect x="0" y="18" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="20" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="40" y="18" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="60" y="18" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="80" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="100" y="18" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="120" y="18" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="140" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="160" y="18" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="180" y="18" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="200" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="220" y="18" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="240" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="260" y="18" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="280" y="18" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="300" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="320" y="18" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="340" y="18" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="360" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="380" y="18" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="400" y="18" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="420" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="440" y="18" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="460" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="480" y="18" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="500" y="18" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="520" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="540" y="18" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="560" y="18" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="580" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="600" y="18" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="620" y="18" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="640" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="660" y="18" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="680" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="700" y="18" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="720" y="18" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="740" y="18" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="760" y="18" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="780" y="18" width="14" height="12" rx="3" fill="#10b981" />
+
+    <!-- Grid Row 3 -->
+    <rect x="0" y="36" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="20" y="36" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="40" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="60" y="36" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="80" y="36" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="100" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="120" y="36" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="140" y="36" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="160" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="180" y="36" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="200" y="36" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="220" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="240" y="36" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="260" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="280" y="36" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="300" y="36" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="320" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="340" y="36" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="360" y="36" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="380" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="400" y="36" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="420" y="36" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="440" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="460" y="36" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="480" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="500" y="36" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="520" y="36" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="540" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="560" y="36" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="580" y="36" width="14" height="12" rx="3" fill="#1e40af" />
+    <rect x="600" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="620" y="36" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="640" y="36" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="660" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="680" y="36" width="14" height="12" rx="3" fill="#0c1836" stroke="#1e3a8a" stroke-width="0.6" />
+    <rect x="700" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="720" y="36" width="14" height="12" rx="3" fill="#38bdf8" />
+    <rect x="740" y="36" width="14" height="12" rx="3" fill="#10b981" />
+    <rect x="760" y="36" width="14" height="12" rx="3" fill="#2563eb" />
+    <rect x="780" y="36" width="14" height="12" rx="3" fill="#38bdf8" />
+
+    <!-- Sleek High-Tech Signal Telemetry Wave Overlay -->
+    <path d="M 0,24 Q 90,-4 180,24 T 360,24 T 540,24 T 720,24 T 794,20" 
+          fill="none" 
+          stroke="url(#wave-gradient)" 
+          stroke-width="2.2" 
+          stroke-linecap="round" 
+          opacity="0.9" />
+
+    <!-- Continuous Laser Telemetry Scanner Bar (Vertical Sensor Line) -->
+    <g class="scan-beam">
+      <line x1="0" y1="-4" x2="0" y2="52" stroke="#38bdf8" stroke-width="2" filter="url(#glow-subtle)" />
+      <circle cx="0" cy="24" r="3.5" fill="#ffffff" stroke="#38bdf8" stroke-width="1.5" />
+    </g>
+  </g>
+
+  <!-- Bottom Telemetry Status Bar -->
+  <g transform="translate(28, 155)">
+    <!-- Pill 1: Core Architecture -->
+    <rect width="180" height="30" rx="6" fill="#0d1f3b" stroke="#1e3a8a" stroke-width="1" />
+    <circle cx="14" cy="15" r="3.5" fill="#38bdf8" />
+    <text x="26" y="19" class="metric-label">STACK</text>
+    <text x="70" y="19" class="metric-val">Web · Mobile · IoT</text>
+
+    <!-- Pill 2: Cloud Database -->
+    <rect x="195" width="205" height="30" rx="6" fill="#0d1f3b" stroke="#1e3a8a" stroke-width="1" />
+    <circle cx="209" cy="15" r="3.5" fill="#fbbf24" />
+    <text x="221" y="19" class="metric-label">CLOUD</text>
+    <text x="268" y="19" class="metric-val">Supabase &amp; Firebase</text>
+
+    <!-- Pill 3: Protocols -->
+    <rect x="415" width="195" height="30" rx="6" fill="#0d1f3b" stroke="#1e3a8a" stroke-width="1" />
+    <circle cx="429" cy="15" r="3.5" fill="#10b981" />
+    <text x="441" y="19" class="metric-label">PROTOCOLS</text>
+    <text x="516" y="19" class="metric-val">MQTT · REST · WS</text>
+
+    <!-- Pill 4: Pipeline Health -->
+    <rect x="625" width="169" height="30" rx="6" fill="#0d1f3b" stroke="#1e3a8a" stroke-width="1" />
+    <circle cx="639" cy="15" r="3.5" fill="#34d399" />
+    <text x="651" y="19" class="metric-label">HEALTH</text>
+    <text x="704" y="19" class="metric-green">100% Passing</text>
+  </g>
+</svg>
